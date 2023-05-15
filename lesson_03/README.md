@@ -28,6 +28,7 @@
 - переместил на него данные постгресса
   chown -R postgres:postgres /mnt/data/
   mv /var/lib/postgresql/15 /mnt/data
+  при старте ошибка отсутствия данных в папке
 - ![Ошибка старта постгресса](../picture/lesson_03/p03.png)
 ### поправил файл настройки /etc/postgresql/15/main/posgresql.conf
 - ![правка наатройки](../picture/lesson_03/p04.png)
